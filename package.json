@@ -4,7 +4,7 @@
   "description": "Coffee Club / Social Club",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/alwayspass.js",
     "start": "node server.js"
   },
   "repository": {
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/sheidaei/coffeeclub#readme",
   "dependencies": {
-   "express": "4.x"
+    "express": "4.x"
+  },
+  "directories": {
+    "test": "test"
   }
 }
