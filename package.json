@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sheidaei/coffeeclub/issues"
   },
-  "homepage": "https://github.com/sheidaei/coffeeclub#readme"
+  "homepage": "https://github.com/sheidaei/coffeeclub#readme",
+  "dependencies": {
+   "express": "5.x"
+  }
 }
