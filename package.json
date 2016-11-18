@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/sheidaei/coffeeclub#readme",
   "dependencies": {
-    "express": "4.x"
+    "nodemailer": "latest",
+    "express": "latest"
   },
   "directories": {
     "test": "test"
