@@ -10,7 +10,7 @@ var port = process.env.PORT || 3000
 var smtpTransport = nodemailer.createTransport("SMTP",{
     service: "Gmail",
     auth: {
-        user: "shahindirect",
+        user: "shahindirect@gmail.com",
         pass: "directshah"
     }
 });
