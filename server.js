@@ -1,6 +1,8 @@
 var express=require('express');
 var nodemailer = require("nodemailer");
 var app=express();
+var port = process.env.PORT || 3000
+
 /*
     Here we are configuring our SMTP Server details.
     STMP is mail server which is responsible for sending and recieving email.
