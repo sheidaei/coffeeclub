@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "6"  
 addons:
-  sonarqube: true
+  sonarqube: false
 env:
   SONAR_TOKEN: b9a731b8b00b0cff2299cc21b103855570522cea 
 script:
